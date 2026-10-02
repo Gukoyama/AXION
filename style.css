@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 18px, 28px;
+    background-color: #1c1c1c;
+}
+
+.logo img {
+    width: 110px;
+    height: auto;
+}
+
+.busca {
+    display: flex;
+    flex: 1;
+    max-width: 400px;
+}
+
+.busca input {
+    flex: 1;
+    min-width: 0;
+    padding: 10px
+}
+
+.busca button {
+    padding: 10px 14px;
+    border: 0;
+    background-color: #e50914;
+    color: white;
+    cursor: pointer;
+}
+
+.conta {
+    color: white;
+    text-decoration: none;
+}
+
+.entrega {
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+}
+
+.entrega span {
+    color: #bbb;
+    font-size: 12px;
+}
